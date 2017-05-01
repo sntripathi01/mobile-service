@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.redox.mobile.service.AppServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-03-02T15:45:05" hostname="HP-PC" time="7.889">
+  <properties/>
+  <testcase name="test" classname="com.redox.mobile.service.AppServiceTest" time="7.889"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 02, 2017 9:15:05 PM com.redox.mobile.service.AppService sendLinkAndOtp
+INFO: AppService  : sendLinkAndOtp admissionNO :11 mobileNo: 8802368071 email: sntripathi01@gmail.com
+Mar 02, 2017 9:15:05 PM com.redox.notification.util.MobileServiceUtil getProperty
+INFO: MobileServiceUtil  : getProperty  loading .....schoolId
+Mar 02, 2017 9:15:05 PM com.redox.notification.util.MobileServiceUtil getProperty
+INFO: MobileServiceUtil  : getProperty property loaded 
+Mar 02, 2017 9:15:05 PM com.redox.notification.util.MobileServiceUtil getProperty
+INFO: MobileServiceUtil  : getProperty Value : 4
+Mar 02, 2017 9:15:05 PM com.redox.notification.util.MobileServiceUtil getProperty
+INFO: MobileServiceUtil  : getProperty  loading .....link
+Mar 02, 2017 9:15:05 PM com.redox.notification.util.MobileServiceUtil getProperty
+INFO: MobileServiceUtil  : getProperty property loaded 
+Mar 02, 2017 9:15:05 PM com.redox.notification.util.MobileServiceUtil getProperty
+INFO: MobileServiceUtil  : getProperty Value : http://demodevelopment.com/redox%20app/redox%2023%20feb%202017_2.apk
+Mar 02, 2017 9:15:05 PM com.redox.notification.util.MobileServiceUtil getProperty
+INFO: MobileServiceUtil  : getProperty  loading .....url
+Mar 02, 2017 9:15:05 PM com.redox.notification.util.MobileServiceUtil getProperty
+INFO: MobileServiceUtil  : getProperty property loaded 
+Mar 02, 2017 9:15:05 PM com.redox.notification.util.MobileServiceUtil getProperty
+INFO: MobileServiceUtil  : getProperty Value : https://redox.cfapps.io
+Mar 02, 2017 9:15:10 PM com.redox.mobile.service.AppService sendLinkAndOtp
+INFO: AppService  : sendLinkAndOtp data :{"schoolId": "4","admissionNo": "11","mobileNo":"8802368071","emailId":"sntripathi01@gmail.com","link":"http://demodevelopment.com/redox%20app/redox%2023%20feb%202017_2.apk"}
+Mar 02, 2017 9:15:13 PM com.redox.mobile.service.AppService sendLinkAndOtp
+INFO: AppService  : sendLinkAndOtp  for schoolId 4 status code: 200
+]]></system-err>
+</testsuite>
